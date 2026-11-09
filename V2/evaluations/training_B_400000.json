@@ -1,0 +1,701 @@
+{
+  "experiment_commit": "1a30d6751e37cdb3d6b484eeb6b600d17f5c47cf",
+  "status": {
+    "model": "B",
+    "status": "complete",
+    "saved_step": 400000,
+    "target_steps": 400000,
+    "updated_at": "2026-11-09T15:08:51.462189+00:00"
+  },
+  "experiment": {
+    "created_at": "2026-11-09T14:41:35.503881+00:00",
+    "config": {
+      "code_version": 1,
+      "env_id": "NightShift-v2",
+      "seed": 42,
+      "gamma": 0.995,
+      "learning_rate": 0.0001,
+      "batch_size": 64,
+      "memory_capacity": 50000,
+      "warmup_steps": 2000,
+      "train_every": 4,
+      "target_update": 1000,
+      "epsilon_start": 0.4,
+      "epsilon_end": 0.05,
+      "epsilon_decay_steps": 200000,
+      "potential_scale": 8.0,
+      "save_every": 10000,
+      "evaluation_every": 50000,
+      "model_name": "B",
+      "hidden_sizes": [
+        64,
+        64
+      ],
+      "pretraining_steps": 250000
+    },
+    "source_hashes": {
+      "train_v2.py": "49124bd4319daf40fab87ee4310db1e683ae51e70e013e503b63b6ee4c778523",
+      "gym_env.py": "347ced34a57c284dcf74e3d00ea5f143df43431fb62934f01867c035d295df12",
+      "simulation.py": "29d3f0777cf83038bcf65d43d2290aa0e750efdd6e6080f62722fde1d1417bbb",
+      "handling.py": "4815c593898f8b66ee0a59b5ca45185ec8560bac37d6251993b45e6a979f6573",
+      "pursuit.py": "a01f1be0a5ba24601ba987f3577880e73e646f2ecc0f904e73e27d6f7066402a",
+      "night_env.py": "21296bb1ff94038ba9bd4eb2463c2fdd21f5e0f91b39cb62e726e2c70f0a6137"
+    },
+    "init_hash": "3c6120a19bf135595dd906abc30a05540eaa48191ef1cbc1da6e56bb910f0b71",
+    "torch_version": "2.13.0+cu126",
+    "gymnasium_version": "1.4.0",
+    "numpy_version": "2.4.6",
+    "device": "cuda:0",
+    "note": "V2 adaptation steps are additional to the saved V1 pretraining budget"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "cuda": "12.6",
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "tests_v2_passed": 9
+  },
+  "attempts": [
+    {
+      "started_at": "2026-11-09T14:41:35.502883+00:00",
+      "status": "complete",
+      "start_step": 0,
+      "target_steps": 400000,
+      "training_seconds": 1547.3647215054807,
+      "evaluation_seconds": 67.0857780999795,
+      "checkpoint_seconds": 21.048489500026335,
+      "last_saved_step": 400000,
+      "finished_at": "2026-11-09T15:08:51.462189+00:00",
+      "wall_seconds": 1635.9585159999988,
+      "last_completed_step": 400000,
+      "unsaved_steps": 0
+    }
+  ],
+  "diagnostics": [
+    {
+      "step": 0,
+      "episodes": [
+        {
+          "reward": 18.292011215633927,
+          "success": true,
+          "seconds": 51.39166666666439,
+          "health": 55.32421814395662,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": 17.082231459101862,
+          "success": true,
+          "seconds": 52.30833333333101,
+          "health": 42.54737478213809,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": 16.863493246300184,
+          "success": true,
+          "seconds": 50.21666666666446,
+          "health": 49.38356490367874,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": 15.742942857737232,
+          "success": true,
+          "seconds": 49.73333333333115,
+          "health": 40.35535520368152,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": 15.514578495874385,
+          "success": true,
+          "seconds": 46.28333333333135,
+          "health": 38.055202594633016,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": 16.69905145492952,
+      "std_reward": 1.002846813618908,
+      "success_rate": 1.0,
+      "fixed_success": true
+    },
+    {
+      "step": 50000,
+      "episodes": [
+        {
+          "reward": -12.738700498497806,
+          "success": false,
+          "seconds": 47.033333333331306,
+          "health": 71.7143686385622,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": -11.783221043422222,
+          "success": false,
+          "seconds": 26.516666666665802,
+          "health": 76.93028956577828,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": -12.334290321807902,
+          "success": false,
+          "seconds": 29.408333333332305,
+          "health": 70.69043011525486,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": -13.334585778404318,
+          "success": false,
+          "seconds": 23.74166666666596,
+          "health": 61.78851721595706,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": 18.319925309620462,
+          "success": true,
+          "seconds": 51.399999999997725,
+          "health": 72.02694381568381,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": -6.3741744665023585,
+      "std_reward": 12.357458046668519,
+      "success_rate": 0.2,
+      "fixed_success": false
+    },
+    {
+      "step": 100000,
+      "episodes": [
+        {
+          "reward": -18.967395833333377,
+          "success": false,
+          "seconds": 36.016666666665266,
+          "health": 0.0,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": 18.736740604301,
+          "success": true,
+          "seconds": 64.56666666666412,
+          "health": 76.08006781709817,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": 12.401804319356032,
+          "success": true,
+          "seconds": 54.89166666666419,
+          "health": 3.9718231162537645,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": -11.701137211879633,
+          "success": false,
+          "seconds": 17.899999999999626,
+          "health": 79.0386278812039,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": 14.571749709020422,
+          "success": true,
+          "seconds": 71.60833333333639,
+          "health": 29.43276627039536,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": 3.008352317492889,
+      "std_reward": 15.288125371343336,
+      "success_rate": 0.6,
+      "fixed_success": false
+    },
+    {
+      "step": 150000,
+      "episodes": [
+        {
+          "reward": 14.096454975629138,
+          "success": true,
+          "seconds": 45.68333333333138,
+          "health": 23.066597708574577,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": 17.87056952682338,
+          "success": true,
+          "seconds": 52.36666666666434,
+          "health": 77.00317418850798,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": 16.31016297436991,
+          "success": true,
+          "seconds": 45.19999999999808,
+          "health": 52.094852615448865,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": 15.8318103861774,
+          "success": true,
+          "seconds": 46.44166666666467,
+          "health": 43.987011975262206,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": -13.860093516608167,
+          "success": false,
+          "seconds": 29.68333333333229,
+          "health": 54.09646066725188,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": 10.049780869278333,
+      "std_reward": 12.01537888819083,
+      "success_rate": 0.8,
+      "fixed_success": true
+    },
+    {
+      "step": 200000,
+      "episodes": [
+        {
+          "reward": -9.75279390224369,
+          "success": false,
+          "seconds": 32.77499999999878,
+          "health": 97.64706097756373,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": -13.671969444743727,
+          "success": false,
+          "seconds": 50.0249999999978,
+          "health": 55.63589811199698,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": -9.793424053366833,
+          "success": false,
+          "seconds": 27.399999999999086,
+          "health": 97.07669696633212,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": -10.43554742515954,
+          "success": false,
+          "seconds": 27.18333333333243,
+          "health": 90.03462991507173,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": -12.099664739282725,
+          "success": false,
+          "seconds": 49.416666666664504,
+          "health": 77.22650091094269,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": -11.150679912959303,
+      "std_reward": 1.5208626727050012,
+      "success_rate": 0.0,
+      "fixed_success": false
+    },
+    {
+      "step": 250000,
+      "episodes": [
+        {
+          "reward": -10.536611075228155,
+          "success": false,
+          "seconds": 40.24999999999836,
+          "health": 85.79170174771939,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": -10.990944708127202,
+          "success": false,
+          "seconds": 9.033333333333461,
+          "health": 90.57388625206126,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": -12.006756521599298,
+          "success": false,
+          "seconds": 8.075000000000182,
+          "health": 80.89493478400692,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": 18.163964853135987,
+          "success": true,
+          "seconds": 45.00833333333142,
+          "health": 71.82610686469233,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": 18.636121288790388,
+          "success": true,
+          "seconds": 62.58333333333042,
+          "health": 80.11723180980253,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": 0.6531547673943443,
+      "std_reward": 14.49886078850551,
+      "success_rate": 0.4,
+      "fixed_success": false
+    },
+    {
+      "step": 300000,
+      "episodes": [
+        {
+          "reward": 17.073102937476545,
+          "success": true,
+          "seconds": 45.84166666666471,
+          "health": 52.691929605319075,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": 17.651292641665158,
+          "success": true,
+          "seconds": 45.949999999998035,
+          "health": 54.77503455196583,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": 17.04854738966886,
+          "success": true,
+          "seconds": 60.49999999999721,
+          "health": 52.41235509884602,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": 17.599646949639315,
+          "success": true,
+          "seconds": 45.59166666666472,
+          "health": 54.509033426415826,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": -12.578433367891527,
+          "success": false,
+          "seconds": 47.7166666666646,
+          "health": 67.94634741313376,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": 11.35883131011167,
+      "std_reward": 11.971309527513913,
+      "success_rate": 0.8,
+      "fixed_success": true
+    },
+    {
+      "step": 350000,
+      "episodes": [
+        {
+          "reward": 15.435670412085738,
+          "success": true,
+          "seconds": 66.35833333333221,
+          "health": 39.92209821531305,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": 16.107695252396603,
+          "success": true,
+          "seconds": 59.941666666663906,
+          "health": 35.53354534468913,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": 19.224665873985074,
+          "success": true,
+          "seconds": 45.00833333333142,
+          "health": 76.35238790651657,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": -11.879683911966568,
+          "success": false,
+          "seconds": 16.199999999999722,
+          "health": 82.46514004700113,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": 14.988958743727792,
+          "success": true,
+          "seconds": 75.40833333333941,
+          "health": 48.254040811741,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": 10.775461274045728,
+      "std_reward": 11.424084130538436,
+      "success_rate": 0.8,
+      "fixed_success": true
+    },
+    {
+      "step": 400000,
+      "episodes": [
+        {
+          "reward": -10.16166666666666,
+          "success": false,
+          "seconds": 6.766666666666793,
+          "health": 100.0,
+          "case": [
+            0,
+            0,
+            0
+          ],
+          "seed": 70000
+        },
+        {
+          "reward": 19.26582847615621,
+          "success": true,
+          "seconds": 45.00833333333142,
+          "health": 83.43068059489437,
+          "case": [
+            12,
+            0,
+            0
+          ],
+          "seed": 70001
+        },
+        {
+          "reward": 15.814015573576018,
+          "success": true,
+          "seconds": 61.35833333333049,
+          "health": 52.072802642540424,
+          "case": [
+            -12,
+            0,
+            0
+          ],
+          "seed": 70002
+        },
+        {
+          "reward": -10.756068370178864,
+          "success": false,
+          "seconds": 42.333333333331574,
+          "health": 87.52264963154552,
+          "case": [
+            0,
+            20,
+            5
+          ],
+          "seed": 70003
+        },
+        {
+          "reward": 18.215531319647404,
+          "success": true,
+          "seconds": 50.349999999997785,
+          "health": 69.6945808967688,
+          "case": [
+            0,
+            -20,
+            -5
+          ],
+          "seed": 70004
+        }
+      ],
+      "mean_reward": 6.475528066506821,
+      "std_reward": 13.873362780658843,
+      "success_rate": 0.6,
+      "fixed_success": false
+    }
+  ],
+  "transfer_archive": {
+    "filename": "Night_Shift_V2_B_400000.zip",
+    "bytes": 133251484,
+    "sha256": "a73b3c5950110b58fe13648abf655d473d25f42b5570a53a6f1147a8475afd41"
+  }
+}
