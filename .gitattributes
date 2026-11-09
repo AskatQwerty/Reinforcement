@@ -1,5 +1,6 @@
 * text=auto eol=lf
 # Checkpoint provenance uses byte hashes; preserve the portable package exactly.
 V2/** -text
+submission/** -text
 *.pt binary
 *.pth binary

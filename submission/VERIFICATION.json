@@ -1,0 +1,16 @@
+{
+  "notebook_code_cells_executed": 16,
+  "local_cpu_passed": true,
+  "local_cuda_passed": true,
+  "public_download_hash_verified": true,
+  "hosted_colab_executed": false,
+  "v1_training_smoke_models": [
+    "B",
+    "C"
+  ],
+  "v1_training_smoke_steps_each": 2500,
+  "pdf_pages": 5,
+  "pdf_visual_review_passed": true,
+  "video_seconds": 151.8,
+  "note": "This records verification, not a promised grade."
+}
