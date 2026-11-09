@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "phase": "initial",
+  "model_name": "B",
+  "pretraining_steps": 250000,
+  "trained_step": 0,
+  "evaluation_step": 0,
+  "checkpoint": "init\\B_weights.pt",
+  "checkpoint_sha256": "e92c0a417dd2090dcef2d58c4e910b2d0542338976605040dade546a2f410dd9",
+  "game_hashes": {
+    "gym_env.py": "347ced34a57c284dcf74e3d00ea5f143df43431fb62934f01867c035d295df12",
+    "simulation.py": "29d3f0777cf83038bcf65d43d2290aa0e750efdd6e6080f62722fde1d1417bbb",
+    "pursuit.py": "a01f1be0a5ba24601ba987f3577880e73e646f2ecc0f904e73e27d6f7066402a",
+    "handling.py": "4815c593898f8b66ee0a59b5ca45185ec8560bac37d6251993b45e6a979f6573"
+  },
+  "cases": [
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80000
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80001
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80002
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80003
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80004
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80005
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80006
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80007
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80008
+    },
+    {
+      "group": "fixed",
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80009
+    },
+    {
+      "group": "changed",
+      "case": [
+        17.074323982569254,
+        -18.89885556842963,
+        8.129061191968567
+      ],
+      "seed": 81000
+    },
+    {
+      "group": "changed",
+      "case": [
+        -12.204120806197466,
+        5.501228406285641,
+        8.530817695991562
+      ],
+      "seed": 81001
+    },
+    {
+      "group": "changed",
+      "case": [
+        6.987345954965569,
+        -18.5948238067693,
+        -6.166813323260363
+      ],
+      "seed": 81002
+    },
+    {
+      "group": "changed",
+      "case": [
+        13.937279995436938,
+        3.7243553882321336,
+        3.879785846954549
+      ],
+      "seed": 81003
+    },
+    {
+      "group": "changed",
+      "case": [
+        7.119860942621912,
+        -25.494220782360898,
+        -9.067933588033402
+      ],
+      "seed": 81004
+    },
+    {
+      "group": "changed",
+      "case": [
+        1.1804016132427648,
+        -28.08213254945766,
+        3.547614108420916
+      ],
+      "seed": 81005
+    },
+    {
+      "group": "changed",
+      "case": [
+        21.996140281800656,
+        -3.0326000861434537,
+        -4.40717611224247
+      ],
+      "seed": 81006
+    },
+    {
+      "group": "changed",
+      "case": [
+        -8.984293834131169,
+        -26.842567273619007,
+        1.426515321037174
+      ],
+      "seed": 81007
+    },
+    {
+      "group": "changed",
+      "case": [
+        1.1535767116414704,
+        -12.878929482834522,
+        1.2239431234625204
+      ],
+      "seed": 81008
+    },
+    {
+      "group": "changed",
+      "case": [
+        -1.2492557297026678,
+        18.509853467925765,
+        -0.7651012660356713
+      ],
+      "seed": 81009
+    }
+  ],
+  "selection_rule": "fixed diagnostic win, diagnostic success rate, mean original reward, later step",
+  "selection_diagnostic": null,
+  "device": "cuda:0",
+  "torch_version": "2.13.0+cu126",
+  "numpy_version": "2.4.6",
+  "reward": "Original V2 reward; no goal shaping in evaluation",
+  "epsilon": 0.0
+}

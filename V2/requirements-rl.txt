@@ -1,0 +1,3 @@
+# Headless environment only; the manual game still uses requirements.txt.
+gymnasium==1.4.0
+numpy>=1.26,<3

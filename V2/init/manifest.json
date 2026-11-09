@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-11-09T13:43:49.435950+00:00",
+  "origin_env_version": 1,
+  "purpose": "Warm start V2 with policy weights only; replay, optimizer and target are new.",
+  "models": {
+    "B": {
+      "hidden_sizes": [
+        64,
+        64
+      ],
+      "pretraining_steps": 250000,
+      "weights": "B_weights.pt",
+      "weights_sha256": "e92c0a417dd2090dcef2d58c4e910b2d0542338976605040dade546a2f410dd9",
+      "source_checkpoint": "runs/night01_b_goal/checkpoints/step_0250000.pt",
+      "source_checkpoint_sha256": "e2fca43fd2d17d7741f4baa2e765e78107cfc20fe31711fbf02acd6dce5f2250",
+      "input_size": 60,
+      "output_size": 15,
+      "v1_settings": {
+        "algorithm": "DoubleDQN",
+        "code_version": 4,
+        "hidden_sizes": [
+          64,
+          64
+        ],
+        "seed": 42,
+        "batch_size": 64,
+        "learning_rate": 0.0001,
+        "gamma": 0.995,
+        "warmup_steps": 2000,
+        "target_update": 1000,
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.1,
+        "epsilon_decay_steps": 100000,
+        "memory_capacity": 50000,
+        "train_every": 4,
+        "reward_mode": "potential",
+        "potential_scale": 8.0
+      }
+    },
+    "C": {
+      "hidden_sizes": [
+        128,
+        128,
+        64
+      ],
+      "pretraining_steps": 300000,
+      "weights": "C_weights.pt",
+      "weights_sha256": "0b4c24da4d3b11bfe9e47cf17a4658fdc797eb5621b43d6d65109199c3c6998f",
+      "source_checkpoint": "runs/night01_c_deep/checkpoints/step_0300000.pt",
+      "source_checkpoint_sha256": "26b24d6e6fb9de92554a6135afdede71f83245a798e2b8d9d5f1f3eaf0749332",
+      "input_size": 60,
+      "output_size": 15,
+      "v1_settings": {
+        "algorithm": "DoubleDQN",
+        "code_version": 4,
+        "hidden_sizes": [
+          128,
+          128,
+          64
+        ],
+        "seed": 42,
+        "batch_size": 64,
+        "learning_rate": 0.0001,
+        "gamma": 0.995,
+        "warmup_steps": 2000,
+        "target_update": 1000,
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.1,
+        "epsilon_decay_steps": 100000,
+        "memory_capacity": 50000,
+        "train_every": 4,
+        "reward_mode": "potential",
+        "potential_scale": 8.0
+      }
+    }
+  }
+}

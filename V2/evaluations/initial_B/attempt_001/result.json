@@ -1,0 +1,415 @@
+{
+  "rows": [
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80000,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80001,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80002,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80003,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80004,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80005,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80006,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80007,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80008,
+      "group": "fixed"
+    },
+    {
+      "reward": 18.292011215633927,
+      "success": true,
+      "seconds": 51.39166666666439,
+      "health": 55.32421814395662,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 514,
+      "max_capture": 0.3906250000000006,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        0,
+        0,
+        0
+      ],
+      "seed": 80009,
+      "group": "fixed"
+    },
+    {
+      "reward": 16.02270300539632,
+      "success": true,
+      "seconds": 45.00833333333142,
+      "health": 42.66609255396219,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 451,
+      "max_capture": 0.4843750000000013,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        17.074323982569254,
+        -18.89885556842963,
+        8.129061191968567
+      ],
+      "seed": 81000,
+      "group": "changed"
+    },
+    {
+      "reward": 16.977774405805274,
+      "success": true,
+      "seconds": 45.93333333333137,
+      "health": 52.274836310610766,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 460,
+      "max_capture": 0.3932291666666673,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        -12.204120806197466,
+        5.501228406285641,
+        8.530817695991562
+      ],
+      "seed": 81001,
+      "group": "changed"
+    },
+    {
+      "reward": 16.923179782949482,
+      "success": true,
+      "seconds": 51.29999999999773,
+      "health": 48.42604519068155,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 513,
+      "max_capture": 0.48958333333333465,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        6.987345954965569,
+        -18.5948238067693,
+        -6.166813323260363
+      ],
+      "seed": 81002,
+      "group": "changed"
+    },
+    {
+      "reward": 13.499352129035298,
+      "success": true,
+      "seconds": 61.73333333333047,
+      "health": 18.458525621728498,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 618,
+      "max_capture": 0.494791666666668,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        13.937279995436938,
+        3.7243553882321336,
+        3.879785846954549
+      ],
+      "seed": 81003,
+      "group": "changed"
+    },
+    {
+      "reward": -12.242859128870002,
+      "success": false,
+      "seconds": 35.24999999999864,
+      "health": 68.12349204463408,
+      "status": "lost",
+      "reason": "The police boxed you in",
+      "steps": 353,
+      "max_capture": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        7.119860942621912,
+        -25.494220782360898,
+        -9.067933588033402
+      ],
+      "seed": 81004,
+      "group": "changed"
+    },
+    {
+      "reward": 13.594282131724883,
+      "success": true,
+      "seconds": 52.04999999999769,
+      "health": 18.03537232545287,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 521,
+      "max_capture": 0.7916666666666639,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        1.1804016132427648,
+        -28.08213254945766,
+        3.547614108420916
+      ],
+      "seed": 81005,
+      "group": "changed"
+    },
+    {
+      "reward": 12.429786738888481,
+      "success": true,
+      "seconds": 53.5999999999976,
+      "health": 2.284969225992601,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 536,
+      "max_capture": 0.3593750000000004,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        21.996140281800656,
+        -3.0326000861434537,
+        -4.40717611224247
+      ],
+      "seed": 81006,
+      "group": "changed"
+    },
+    {
+      "reward": -19.263618359410636,
+      "success": false,
+      "seconds": 64.39999999999732,
+      "health": 0.0,
+      "status": "lost",
+      "reason": "Your car is wrecked",
+      "steps": 644,
+      "max_capture": 0.6536458333333325,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        -8.984293834131169,
+        -26.842567273619007,
+        1.426515321037174
+      ],
+      "seed": 81007,
+      "group": "changed"
+    },
+    {
+      "reward": 16.826547056889186,
+      "success": true,
+      "seconds": 50.31666666666445,
+      "health": 39.22169510121648,
+      "status": "won",
+      "reason": "You escaped the pursuit",
+      "steps": 504,
+      "max_capture": 0.4244791666666675,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        1.1535767116414704,
+        -12.878929482834522,
+        1.2239431234625204
+      ],
+      "seed": 81008,
+      "group": "changed"
+    },
+    {
+      "reward": -10.654626122585276,
+      "success": false,
+      "seconds": 28.008333333332384,
+      "health": 92.47040544081437,
+      "status": "lost",
+      "reason": "The police boxed you in",
+      "steps": 281,
+      "max_capture": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "case": [
+        -1.2492557297026678,
+        18.509853467925765,
+        -0.7651012660356713
+      ],
+      "seed": 81009,
+      "group": "changed"
+    }
+  ],
+  "evaluation_seconds": 183.2430025000001,
+  "video_seconds": 0.0,
+  "video": null,
+  "model_name": "B",
+  "phase": "initial",
+  "trained_step": 0,
+  "evaluation_step": 0,
+  "pretraining_steps": 250000,
+  "requested_episodes": 20,
+  "status": "complete",
+  "summary": {
+    "fixed": {
+      "episodes": 10,
+      "wins": 10,
+      "success_rate": 1.0,
+      "mean_reward": 18.292011215633927,
+      "std_reward": 0.0,
+      "mean_seconds": 51.39166666666439,
+      "mean_win_seconds": 51.39166666666439
+    },
+    "changed": {
+      "episodes": 10,
+      "wins": 7,
+      "success_rate": 0.7,
+      "mean_reward": 6.411252163982302,
+      "std_reward": 13.63630908570548,
+      "mean_seconds": 48.7599999999979,
+      "mean_win_seconds": 51.420238095235824
+    }
+  },
+  "complete": true
+}

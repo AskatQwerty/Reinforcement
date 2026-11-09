@@ -1,0 +1,75 @@
+{
+  "B": {
+    "fresh_state": true,
+    "steps": 2500,
+    "gradient_updates": 126,
+    "exact_resume": true,
+    "validation_does_not_change_training_rng": true,
+    "training_seconds": 41.127240000003894,
+    "evaluation_success": true
+  },
+  "C": {
+    "fresh_state": true,
+    "steps": 2500,
+    "gradient_updates": 126,
+    "exact_resume": true,
+    "validation_does_not_change_training_rng": true,
+    "training_seconds": 39.56580099999826,
+    "evaluation_success": false
+  },
+  "interrupted_optimizer": {
+    "checkpoint_unchanged": true,
+    "resume_succeeded": true
+  },
+  "failed_derivative_save": {
+    "full_checkpoint_coherent": true,
+    "saved_step": 2515
+  },
+  "game_environment_tests": 9,
+  "gymnasium_checker": "passed",
+  "initial_snapshot_diagnostic": "passed in isolated qa_step0 copy",
+  "baseline_tests_per_model": 20,
+  "baseline": {
+    "B": {
+      "fixed": {
+        "episodes": 10,
+        "wins": 10,
+        "success_rate": 1.0,
+        "mean_reward": 18.292011215633927,
+        "std_reward": 0.0,
+        "mean_seconds": 51.39166666666439,
+        "mean_win_seconds": 51.39166666666439
+      },
+      "changed": {
+        "episodes": 10,
+        "wins": 7,
+        "success_rate": 0.7,
+        "mean_reward": 6.411252163982302,
+        "std_reward": 13.63630908570548,
+        "mean_seconds": 48.7599999999979,
+        "mean_win_seconds": 51.420238095235824
+      }
+    },
+    "C": {
+      "fixed": {
+        "episodes": 10,
+        "wins": 0,
+        "success_rate": 0.0,
+        "mean_reward": -11.059801329164042,
+        "std_reward": 1.7763568394002505e-15,
+        "mean_seconds": 21.416666666666092,
+        "mean_win_seconds": null
+      },
+      "changed": {
+        "episodes": 10,
+        "wins": 6,
+        "success_rate": 0.6,
+        "mean_reward": 3.7210876347639728,
+        "std_reward": 14.894990863324347,
+        "mean_seconds": 47.71749999999816,
+        "mean_win_seconds": 49.57499999999783
+      }
+    }
+  },
+  "production_training_started": false
+}

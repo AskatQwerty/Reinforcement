@@ -1,0 +1,15 @@
+{
+  "python": "3.11.18",
+  "packages": {
+    "torch": "2.13.0+cu126",
+    "gymnasium": "1.4.0",
+    "numpy": "2.4.6",
+    "pygame-ce": "2.5.8",
+    "matplotlib": "3.11.2",
+    "imageio": "2.38.1",
+    "imageio-ffmpeg": "0.8.1",
+    "ipywidgets": "8.1.9",
+    "ipykernel": "7.3.0",
+    "nbformat": "5.11.1"
+  }
+}

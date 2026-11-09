@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "created_at": "2026-11-09T14:04:04.272849+00:00",
+  "motivation": "V1 allowed brief close-pursuit acceleration to decrease capture. V2 requires real separation.",
+  "capture_rule": {
+    "grow_distance": 72,
+    "grow_below_speed": 65,
+    "capture_seconds": 3.2,
+    "release_distance": 120,
+    "release_rate": 0.65
+  },
+  "additional_training_steps": 400000,
+  "main_laptop_model": "C",
+  "second_laptop_model": "B",
+  "files": {
+    "ENVIRONMENT_USED.json": "e58cecd1f083ac865727fb82364d92b7b6e88b6f307d6c433086d37c52cc8822",
+    "eval_v2.py": "acac4f318fdd7f9cb1a1ff232283f4e42321d1709b9b842fb843be99ea3e8327",
+    "evaluations/initial_B/attempt_001/protocol.json": "9f82a975227f43d3734f4cde9558b84f93ff4cd2fffc6231c5bb67481e4f9a7e",
+    "evaluations/initial_B/attempt_001/result.json": "b1ea2d48d37cf0bc7428e8c9512f95d635d36d161ecf6ac4197c72cf92e69df7",
+    "evaluations/initial_C/attempt_001/protocol.json": "d00c2c36f54764a21ef086b0b9d77f1da0ffb5d9d81b2bdd6f42f30d5ebf9fea",
+    "evaluations/initial_C/attempt_001/result.json": "96b0c4bf85c99e19286c011a36ba5b8fcae3d033864bcac192b7d00d9a5aa584",
+    "gym_env.py": "347ced34a57c284dcf74e3d00ea5f143df43431fb62934f01867c035d295df12",
+    "handling.py": "4815c593898f8b66ee0a59b5ca45185ec8560bac37d6251993b45e6a979f6573",
+    "init/B_weights.pt": "e92c0a417dd2090dcef2d58c4e910b2d0542338976605040dade546a2f410dd9",
+    "init/C_weights.pt": "0b4c24da4d3b11bfe9e47cf17a4658fdc797eb5621b43d6d65109199c3c6998f",
+    "init/manifest.json": "3c6120a19bf135595dd906abc30a05540eaa48191ef1cbc1da6e56bb910f0b71",
+    "main.py": "4178cda1627e23a0b3d4bbd36d54029a7aa904cb5db5e7bfd88ee9c43f21f498",
+    "night_env.py": "21296bb1ff94038ba9bd4eb2463c2fdd21f5e0f91b39cb62e726e2c70f0a6137",
+    "pursuit.py": "a01f1be0a5ba24601ba987f3577880e73e646f2ecc0f904e73e27d6f7066402a",
+    "QA_SUMMARY.json": "64923bd746d8ad594cc89005416b98d451fa0fe217afdfee9e32a80bf3984816",
+    "README.txt": "7d162015851f3fb66a40b11fac8a8be14e8a8e3496d25ae133d2aaefb553e147",
+    "requirements-rl.txt": "a788f86e5bd654c2523f6c0d0eec9f44fc72b343a1721898562de060ca547f38",
+    "requirements-training.txt": "6a5485853a4047dbb29b36d595579c5b3224309430137d9d87d1ac470861807e",
+    "requirements.txt": "fdb9840ce37afc18b3a3bf57048fc772798b8e551630a1c9f9635f2e925a4cf6",
+    "simulation.py": "29d3f0777cf83038bcf65d43d2290aa0e750efdd6e6080f62722fde1d1417bbb",
+    "START_GAME.cmd": "3a21f78f189caf94b8b0f75a87ca988ee9adc6957033df2442ec530740229bfb",
+    "tests_v2.py": "58c14a21be342d52f0227e84ea41772e07c7b575ac61cdbb1d0c27d7f807eb27",
+    "Train_B.ipynb": "a21d623265418932db966504ac8d7714eb96a2aba929c9b2b7ef4707c3b74f99",
+    "Train_C.ipynb": "30aa33ea42578033b0920678a4c26518c45af50c127c4860329e90b2ddb8405b",
+    "train_v2.py": "49124bd4319daf40fab87ee4310db1e683ae51e70e013e503b63b6ee4c778523"
+  },
+  "v1_archive_note": "Full V1 archive is retained locally on the main laptop; this repository contains the portable V2 experiment."
+}
